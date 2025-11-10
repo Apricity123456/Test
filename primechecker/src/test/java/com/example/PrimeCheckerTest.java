@@ -5,12 +5,6 @@ import org.junit.Test;
 
 public class PrimeCheckerTest {
 
-    // @Test
-    // public void testZeroIsPrime() {
-    //     PrimeChecker checker = new PrimeChecker();
-    //     assertTrue(checker.isPrime(0));
-    // }
-
     @Test
     public void testZeroIsNotPrime() {
         PrimeChecker checker = new PrimeChecker();
