@@ -8,7 +8,7 @@ public class PrimeCheckerTest {
     @Test
     public void testTwoIsPrime() {
         PrimeChecker checker = new PrimeChecker();
-        assertTrue(checker.isPrime(0));  
+        assertFalse(checker.isPrime(0));  
     }
     
 }
